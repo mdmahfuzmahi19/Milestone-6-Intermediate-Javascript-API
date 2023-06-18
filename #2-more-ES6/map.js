@@ -29,3 +29,8 @@ console.log(fiveTime);
 const result = getDouble(numbers)
 console.log(result);
 console.log(makeDouble);
+
+
+let num = [1,2,3,4,5,6,7]
+let add = num.map(value => value +1)
+console.log(add);
